@@ -38,7 +38,7 @@ class Part
     private ?int $stock = 0;
 
     #[ORM\Column(length: 50, nullable: true)]
-    private ?string $condition = null;
+    private ?string $part_condition = null;
 
     #[ORM\Column(nullable: true)]
     private ?bool $isAvailable = true;
@@ -128,14 +128,14 @@ class Part
         return $this;
     }
 
-    public function getCondition(): ?string
+    public function getPartCondition(): ?string
     {
-        return $this->condition;
+        return $this->part_condition;
     }
 
-    public function setCondition(?string $condition): static
+    public function setPartCondition(?string $part_condition): static
     {
-        $this->condition = $condition;
+        $this->part_condition = $part_condition;
 
         return $this;
     }

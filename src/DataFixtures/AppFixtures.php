@@ -130,7 +130,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-CAL-JT-00001');
         $part->setPrice('53.49');
         $part->setStock(12);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
@@ -141,7 +141,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-PMP-DA-00002');
         $part->setPrice('157.54');
         $part->setStock(46);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catdirection);
@@ -152,7 +152,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-KIT-ET-00003');
         $part->setPrice('31.7');
         $part->setStock(26);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfreinage);
@@ -163,7 +163,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-RES-AR-00004');
         $part->setPrice('37.48');
         $part->setStock(9);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -174,7 +174,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-TUY-RS-00005');
         $part->setPrice('32.95');
         $part->setStock(68);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
@@ -185,7 +185,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-MOT-LV-00006');
         $part->setPrice('73.15');
         $part->setStock(59);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catelectricite);
@@ -196,7 +196,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-AMO-AV-00007');
         $part->setPrice('81.44');
         $part->setStock(71);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -207,7 +207,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FEU-AG-00008');
         $part->setPrice('137.42');
         $part->setStock(7);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cateclairage);
@@ -218,7 +218,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-CRM-DI-00009');
         $part->setPrice('333.67');
         $part->setStock(40);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catdirection);
@@ -229,7 +229,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FLT-AI-00010');
         $part->setPrice('15.23');
         $part->setStock(27);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfiltration);
@@ -240,7 +240,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-DSC-EM-00011');
         $part->setPrice('137.02');
         $part->setStock(40);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cattransmission);
@@ -251,7 +251,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-DST-AL-00012');
         $part->setPrice('105.54');
         $part->setStock(50);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catallumage);
@@ -262,7 +262,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-RAD-RF-00013');
         $part->setPrice('174.48');
         $part->setStock(33);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
@@ -273,7 +273,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-CAP-AB-00014');
         $part->setPrice('55.96');
         $part->setStock(71);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catelectricite);
@@ -284,7 +284,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-BOB-AL-00015');
         $part->setPrice('57.33');
         $part->setStock(74);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catallumage);
@@ -295,7 +295,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-RES-AV-00016');
         $part->setPrice('83.36');
         $part->setStock(51);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -306,7 +306,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-SON-LB-00017');
         $part->setPrice('58.18');
         $part->setStock(17);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catechappement);
@@ -317,7 +317,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-THR-MT-00018');
         $part->setPrice('33.22');
         $part->setStock(6);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
@@ -328,7 +328,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-BUT-EM-00019');
         $part->setPrice('33.41');
         $part->setStock(20);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cattransmission);
@@ -339,7 +339,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-CAP-AC-00020');
         $part->setPrice('93.55');
         $part->setStock(8);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catallumage);
@@ -350,7 +350,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-JNT-EX-00021');
         $part->setPrice('54.81');
         $part->setStock(59);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cattransmission);
@@ -361,7 +361,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FLT-HA-00022');
         $part->setPrice('13.53');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfiltration);
@@ -372,7 +372,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-BIE-BS-00023');
         $part->setPrice('38.81');
         $part->setStock(14);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -383,7 +383,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-CAP-PM-00024');
         $part->setPrice('91.94');
         $part->setStock(34);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catelectricite);
@@ -394,7 +394,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-SIL-AR-00025');
         $part->setPrice('104.33');
         $part->setStock(37);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catechappement);
@@ -405,7 +405,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-AMP-H7-00026');
         $part->setPrice('6.21');
         $part->setStock(0);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(false);
         $part->setBrand($brandBosch);
         $part->setCategory($cateclairage);
@@ -416,7 +416,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-SOF-CD-00027');
         $part->setPrice('45.65');
         $part->setStock(33);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cattransmission);
@@ -427,7 +427,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-ROT-DI-00028');
         $part->setPrice('58.1');
         $part->setStock(64);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -438,7 +438,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-ROT-EX-00029');
         $part->setPrice('67.88');
         $part->setStock(38);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catdirection);
@@ -449,7 +449,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-ETR-AV-00030');
         $part->setPrice('118.46');
         $part->setStock(25);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfreinage);
@@ -460,7 +460,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-PRJ-AG-00031');
         $part->setPrice('145.39');
         $part->setStock(20);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cateclairage);
@@ -471,7 +471,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-AMO-AR-00032');
         $part->setPrice('154.42');
         $part->setStock(67);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -482,7 +482,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FLX-EC-00033');
         $part->setPrice('60.94');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catechappement);
@@ -493,7 +493,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FLT-CB-00034');
         $part->setPrice('13.92');
         $part->setStock(46);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfiltration);
@@ -504,7 +504,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-BRK-AV-00035');
         $part->setPrice('29.25');
         $part->setStock(30);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfreinage);
@@ -515,7 +515,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FEU-AD-00036');
         $part->setPrice('172.84');
         $part->setStock(10);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cateclairage);
@@ -526,7 +526,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-KIT-EM-00037');
         $part->setPrice('201.78');
         $part->setStock(8);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cattransmission);
@@ -537,7 +537,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-VNT-MT-00038');
         $part->setPrice('166.05');
         $part->setStock(16);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
@@ -548,7 +548,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-SIL-BR-00039');
         $part->setPrice('27.68');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
@@ -559,7 +559,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-BIE-DI-00040');
         $part->setPrice('31.78');
         $part->setStock(77);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catdirection);
@@ -570,7 +570,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FLT-GS-00041');
         $part->setPrice('48.65');
         $part->setStock(69);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfiltration);
@@ -581,7 +581,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-DEM-RC-00042');
         $part->setPrice('205.73');
         $part->setStock(39);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catelectricite);
@@ -592,7 +592,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-SIL-IN-00043');
         $part->setPrice('219.25');
         $part->setStock(47);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catechappement);
@@ -603,7 +603,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-REL-PC-00044');
         $part->setPrice('55.78');
         $part->setStock(57);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catelectricite);
@@ -614,7 +614,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-RLM-BV-00045');
         $part->setPrice('43.37');
         $part->setStock(8);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cattransmission);
@@ -625,7 +625,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-PRJ-AD-00046');
         $part->setPrice('69.52');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($cateclairage);
@@ -636,7 +636,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-FLT-BT-00047');
         $part->setPrice('38.54');
         $part->setStock(0);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(false);
         $part->setBrand($brandBosch);
         $part->setCategory($catfiltration);
@@ -647,7 +647,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-JNT-CO-00048');
         $part->setPrice('27.11');
         $part->setStock(7);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catechappement);
@@ -658,7 +658,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-BRK-AR-00049');
         $part->setPrice('17.7');
         $part->setStock(4);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfreinage);
@@ -669,7 +669,7 @@ class AppFixtures extends Fixture
         $part->setReference('BSH-DSC-AV-00050');
         $part->setPrice('41.02');
         $part->setStock(30);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfreinage);
@@ -680,7 +680,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-RLM-BV-00051');
         $part->setPrice('71.19');
         $part->setStock(71);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cattransmission);
@@ -691,7 +691,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-JNT-CO-00052');
         $part->setPrice('27.4');
         $part->setStock(19);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catechappement);
@@ -702,7 +702,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-AMO-AV-00053');
         $part->setPrice('85.06');
         $part->setStock(7);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catsuspension);
@@ -713,7 +713,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FEU-BR-00054');
         $part->setPrice('72.82');
         $part->setStock(7);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cateclairage);
@@ -724,7 +724,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-PMP-EA-00055');
         $part->setPrice('67.93');
         $part->setStock(6);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catrefroidissement);
@@ -735,7 +735,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FLT-HA-00056');
         $part->setPrice('18.49');
         $part->setStock(67);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfiltration);
@@ -746,7 +746,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FLT-AI-00057');
         $part->setPrice('9.54');
         $part->setStock(65);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfiltration);
@@ -757,7 +757,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FLT-CB-00058');
         $part->setPrice('39.8');
         $part->setStock(8);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfiltration);
@@ -768,7 +768,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CAP-AC-00059');
         $part->setPrice('52.82');
         $part->setStock(30);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catallumage);
@@ -779,7 +779,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-DST-AL-00060');
         $part->setPrice('51.99');
         $part->setStock(72);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catallumage);
@@ -790,7 +790,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-RES-AR-00061');
         $part->setPrice('55.58');
         $part->setStock(5);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catsuspension);
@@ -801,7 +801,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-PRJ-AG-00062');
         $part->setPrice('82.63');
         $part->setStock(74);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cateclairage);
@@ -812,7 +812,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-RAD-RF-00063');
         $part->setPrice('186.94');
         $part->setStock(33);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catrefroidissement);
@@ -823,7 +823,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-BOB-AL-00064');
         $part->setPrice('91.93');
         $part->setStock(40);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catallumage);
@@ -834,7 +834,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-DEM-RC-00065');
         $part->setPrice('131.48');
         $part->setStock(16);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catelectricite);
@@ -845,7 +845,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-JNT-EX-00066');
         $part->setPrice('71.96');
         $part->setStock(58);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cattransmission);
@@ -856,7 +856,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-SON-LA-00067');
         $part->setPrice('132.9');
         $part->setStock(9);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catelectricite);
@@ -867,7 +867,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-ROT-DI-00068');
         $part->setPrice('42.91');
         $part->setStock(72);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catsuspension);
@@ -878,7 +878,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-BRK-AV-00069');
         $part->setPrice('21.44');
         $part->setStock(27);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -889,7 +889,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CAL-JT-00070');
         $part->setPrice('26.93');
         $part->setStock(44);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catrefroidissement);
@@ -900,7 +900,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-BRK-AR-00071');
         $part->setPrice('50.17');
         $part->setStock(47);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -911,7 +911,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-REL-PC-00072');
         $part->setPrice('24.63');
         $part->setStock(69);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catelectricite);
@@ -922,7 +922,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CAB-BG-00073');
         $part->setPrice('27.1');
         $part->setStock(67);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catallumage);
@@ -933,7 +933,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FEU-AG-00074');
         $part->setPrice('135.16');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cateclairage);
@@ -944,7 +944,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-DSC-AV-00075');
         $part->setPrice('114.2');
         $part->setStock(13);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -955,7 +955,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-KIT-ET-00076');
         $part->setPrice('27.79');
         $part->setStock(13);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -966,7 +966,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-BGI-ST-00077');
         $part->setPrice('11.75');
         $part->setStock(34);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catallumage);
@@ -977,7 +977,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FEU-AD-00078');
         $part->setPrice('126.65');
         $part->setStock(43);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cateclairage);
@@ -988,7 +988,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CYL-RO-00079');
         $part->setPrice('47.5');
         $part->setStock(33);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -999,7 +999,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FLT-BT-00080');
         $part->setPrice('34.54');
         $part->setStock(6);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfiltration);
@@ -1010,7 +1010,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-ETR-AV-00081');
         $part->setPrice('134.29');
         $part->setStock(35);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -1021,7 +1021,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-KIT-EM-00082');
         $part->setPrice('90.82');
         $part->setStock(16);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cattransmission);
@@ -1032,7 +1032,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-SOF-CD-00083');
         $part->setPrice('49.29');
         $part->setStock(20);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cattransmission);
@@ -1043,7 +1043,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-SIL-AR-00084');
         $part->setPrice('119.07');
         $part->setStock(54);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catechappement);
@@ -1054,7 +1054,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CRM-DI-00085');
         $part->setPrice('122.51');
         $part->setStock(9);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catdirection);
@@ -1065,7 +1065,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-MOT-LV-00086');
         $part->setPrice('148.95');
         $part->setStock(69);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catelectricite);
@@ -1076,7 +1076,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-AMO-AR-00087');
         $part->setPrice('140.15');
         $part->setStock(74);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catsuspension);
@@ -1087,7 +1087,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-BIE-BS-00088');
         $part->setPrice('20.18');
         $part->setStock(16);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catsuspension);
@@ -1098,7 +1098,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CAP-PM-00089');
         $part->setPrice('51.58');
         $part->setStock(5);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catelectricite);
@@ -1109,7 +1109,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-CAT-AV-00090');
         $part->setPrice('189.33');
         $part->setStock(31);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catechappement);
@@ -1120,7 +1120,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-DSC-AR-00091');
         $part->setPrice('34.37');
         $part->setStock(71);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -1131,7 +1131,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-DSC-EM-00092');
         $part->setPrice('147.25');
         $part->setStock(19);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cattransmission);
@@ -1142,7 +1142,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-BIE-DI-00093');
         $part->setPrice('62.96');
         $part->setStock(22);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catdirection);
@@ -1153,7 +1153,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-VNT-MT-00094');
         $part->setPrice('58.59');
         $part->setStock(42);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catrefroidissement);
@@ -1164,7 +1164,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-RES-AV-00095');
         $part->setPrice('77.15');
         $part->setStock(31);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catsuspension);
@@ -1175,7 +1175,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-AMP-H7-00096');
         $part->setPrice('6.23');
         $part->setStock(13);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($cateclairage);
@@ -1186,7 +1186,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-THR-MT-00097');
         $part->setPrice('49.5');
         $part->setStock(60);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catrefroidissement);
@@ -1197,7 +1197,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-SIL-IN-00098');
         $part->setPrice('95.93');
         $part->setStock(58);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catechappement);
@@ -1208,7 +1208,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FLX-FR-00099');
         $part->setPrice('20.55');
         $part->setStock(29);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfreinage);
@@ -1219,7 +1219,7 @@ class AppFixtures extends Fixture
         $part->setReference('VLO-FLT-GS-00100');
         $part->setPrice('12.9');
         $part->setStock(24);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandValeo);
         $part->setCategory($catfiltration);
@@ -1230,7 +1230,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CAP-AB-00101');
         $part->setPrice('91.52');
         $part->setStock(48);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catelectricite);
@@ -1241,7 +1241,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-BGI-IR-00102');
         $part->setPrice('32.95');
         $part->setStock(22);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catallumage);
@@ -1252,7 +1252,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-BUT-EM-00103');
         $part->setPrice('56.3');
         $part->setStock(51);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cattransmission);
@@ -1263,7 +1263,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLX-EC-00104');
         $part->setPrice('75.02');
         $part->setStock(38);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catechappement);
@@ -1274,7 +1274,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-BGI-ST-00105');
         $part->setPrice('6.94');
         $part->setStock(74);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catallumage);
@@ -1285,7 +1285,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-DST-AL-00106');
         $part->setPrice('105.47');
         $part->setStock(59);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catallumage);
@@ -1296,7 +1296,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-JNT-CO-00107');
         $part->setPrice('19.94');
         $part->setStock(27);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catechappement);
@@ -1307,7 +1307,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLT-AI-00108');
         $part->setPrice('20.78');
         $part->setStock(21);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfiltration);
@@ -1318,7 +1318,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CYL-RO-00109');
         $part->setPrice('23.39');
         $part->setStock(65);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfreinage);
@@ -1329,7 +1329,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CAP-PM-00110');
         $part->setPrice('74.31');
         $part->setStock(42);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catelectricite);
@@ -1340,7 +1340,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-DSC-EM-00111');
         $part->setPrice('130.93');
         $part->setStock(30);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cattransmission);
@@ -1351,7 +1351,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CAP-AC-00112');
         $part->setPrice('80.7');
         $part->setStock(25);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catallumage);
@@ -1362,7 +1362,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLT-HU-00113');
         $part->setPrice('6.46');
         $part->setStock(31);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfiltration);
@@ -1373,7 +1373,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FEU-AD-00114');
         $part->setPrice('127.52');
         $part->setStock(9);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1384,7 +1384,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-MOT-LV-00115');
         $part->setPrice('92.66');
         $part->setStock(80);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catelectricite);
@@ -1395,7 +1395,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-DSC-AR-00116');
         $part->setPrice('40.05');
         $part->setStock(49);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfreinage);
@@ -1406,7 +1406,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-JNT-EX-00117');
         $part->setPrice('55.98');
         $part->setStock(18);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cattransmission);
@@ -1417,7 +1417,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLT-CB-00118');
         $part->setPrice('34.07');
         $part->setStock(13);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfiltration);
@@ -1428,7 +1428,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-TUY-RS-00119');
         $part->setPrice('19.22');
         $part->setStock(66);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catrefroidissement);
@@ -1439,7 +1439,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLT-BT-00120');
         $part->setPrice('17.01');
         $part->setStock(31);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfiltration);
@@ -1450,7 +1450,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CAT-AV-00121');
         $part->setPrice('270.63');
         $part->setStock(59);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catechappement);
@@ -1461,7 +1461,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CRM-DI-00122');
         $part->setPrice('258.09');
         $part->setStock(71);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catdirection);
@@ -1472,7 +1472,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-SIL-BR-00123');
         $part->setPrice('22.47');
         $part->setStock(56);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catsuspension);
@@ -1483,7 +1483,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-AMP-H7-00124');
         $part->setPrice('15.41');
         $part->setStock(64);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1494,7 +1494,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-KIT-EM-00125');
         $part->setPrice('281.03');
         $part->setStock(70);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cattransmission);
@@ -1505,7 +1505,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-RES-AR-00126');
         $part->setPrice('74.04');
         $part->setStock(60);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catsuspension);
@@ -1516,7 +1516,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-SON-LB-00127');
         $part->setPrice('61.85');
         $part->setStock(31);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catechappement);
@@ -1527,7 +1527,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-PRJ-AD-00128');
         $part->setPrice('124.62');
         $part->setStock(66);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1538,7 +1538,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-AMP-H4-00129');
         $part->setPrice('12.77');
         $part->setStock(35);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1549,7 +1549,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-SOF-CD-00130');
         $part->setPrice('17.71');
         $part->setStock(36);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cattransmission);
@@ -1560,7 +1560,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-BRK-AV-00131');
         $part->setPrice('30.77');
         $part->setStock(40);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfreinage);
@@ -1571,7 +1571,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FEU-BR-00132');
         $part->setPrice('30.24');
         $part->setStock(19);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1582,7 +1582,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-CAL-JT-00133');
         $part->setPrice('32.24');
         $part->setStock(19);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catrefroidissement);
@@ -1593,7 +1593,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-VNT-MT-00134');
         $part->setPrice('86.02');
         $part->setStock(53);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catrefroidissement);
@@ -1604,7 +1604,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLT-GS-00135');
         $part->setPrice('24.57');
         $part->setStock(59);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfiltration);
@@ -1615,7 +1615,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-ROT-DI-00136');
         $part->setPrice('23.11');
         $part->setStock(53);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catsuspension);
@@ -1626,7 +1626,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FEU-AG-00137');
         $part->setPrice('167.15');
         $part->setStock(74);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1637,7 +1637,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-ROT-EX-00138');
         $part->setPrice('21.07');
         $part->setStock(73);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catdirection);
@@ -1648,7 +1648,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-COL-DI-00139');
         $part->setPrice('165.86');
         $part->setStock(45);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catdirection);
@@ -1659,7 +1659,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-AMO-AV-00140');
         $part->setPrice('146.72');
         $part->setStock(53);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catsuspension);
@@ -1670,7 +1670,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-PRJ-AG-00141');
         $part->setPrice('225.72');
         $part->setStock(69);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($cateclairage);
@@ -1681,7 +1681,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-RLM-AV-00142');
         $part->setPrice('111.31');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catsuspension);
@@ -1692,7 +1692,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-REL-PC-00143');
         $part->setPrice('29.46');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catelectricite);
@@ -1703,7 +1703,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLX-FR-00144');
         $part->setPrice('22.89');
         $part->setStock(51);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfreinage);
@@ -1714,7 +1714,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-DSC-AV-00145');
         $part->setPrice('49.03');
         $part->setStock(59);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfreinage);
@@ -1725,7 +1725,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-SIL-IN-00146');
         $part->setPrice('217.01');
         $part->setStock(68);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catechappement);
@@ -1736,7 +1736,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-SON-LA-00147');
         $part->setPrice('130.69');
         $part->setStock(75);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catelectricite);
@@ -1747,7 +1747,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-FLT-HA-00148');
         $part->setPrice('22.59');
         $part->setStock(10);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfiltration);
@@ -1758,7 +1758,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-BOB-AL-00149');
         $part->setPrice('71.43');
         $part->setStock(59);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catallumage);
@@ -1769,7 +1769,7 @@ class AppFixtures extends Fixture
         $part->setReference('BRB-KIT-ET-00150');
         $part->setPrice('19.86');
         $part->setStock(48);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandBrembo);
         $part->setCategory($catfreinage);
@@ -1780,7 +1780,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-KIT-EM-00151');
         $part->setPrice('169.86');
         $part->setStock(54);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cattransmission);
@@ -1791,7 +1791,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLT-CB-00152');
         $part->setPrice('22.97');
         $part->setStock(64);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfiltration);
@@ -1802,7 +1802,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-THR-MT-00153');
         $part->setPrice('26.67');
         $part->setStock(53);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catrefroidissement);
@@ -1813,7 +1813,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-COL-DI-00154');
         $part->setPrice('99.0');
         $part->setStock(46);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catdirection);
@@ -1824,7 +1824,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-RLM-BV-00155');
         $part->setPrice('83.28');
         $part->setStock(58);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cattransmission);
@@ -1835,7 +1835,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-AMP-H4-00156');
         $part->setPrice('6.14');
         $part->setStock(22);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cateclairage);
@@ -1846,7 +1846,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-SOF-CD-00157');
         $part->setPrice('33.26');
         $part->setStock(34);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cattransmission);
@@ -1857,7 +1857,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-PMP-EA-00158');
         $part->setPrice('119.86');
         $part->setStock(68);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catrefroidissement);
@@ -1868,7 +1868,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-JNT-EX-00159');
         $part->setPrice('60.22');
         $part->setStock(75);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cattransmission);
@@ -1879,7 +1879,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-DEM-RC-00160');
         $part->setPrice('141.4');
         $part->setStock(31);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -1890,7 +1890,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-PMP-DA-00161');
         $part->setPrice('157.76');
         $part->setStock(57);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catdirection);
@@ -1901,7 +1901,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-SON-LA-00162');
         $part->setPrice('115.05');
         $part->setStock(72);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -1912,7 +1912,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-DST-AL-00163');
         $part->setPrice('106.82');
         $part->setStock(43);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catallumage);
@@ -1923,7 +1923,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-CRM-DI-00164');
         $part->setPrice('248.52');
         $part->setStock(41);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catdirection);
@@ -1934,7 +1934,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLX-FR-00165');
         $part->setPrice('25.65');
         $part->setStock(45);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfreinage);
@@ -1945,7 +1945,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-REL-PC-00166');
         $part->setPrice('32.29');
         $part->setStock(76);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -1956,7 +1956,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-RES-AR-00167');
         $part->setPrice('73.05');
         $part->setStock(71);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catsuspension);
@@ -1967,7 +1967,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-BRK-AV-00168');
         $part->setPrice('42.28');
         $part->setStock(24);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfreinage);
@@ -1978,7 +1978,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FEU-AD-00169');
         $part->setPrice('77.58');
         $part->setStock(52);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cateclairage);
@@ -1989,7 +1989,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-CAP-AB-00170');
         $part->setPrice('82.19');
         $part->setStock(30);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -2000,7 +2000,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-BIE-BS-00171');
         $part->setPrice('31.66');
         $part->setStock(62);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catsuspension);
@@ -2011,7 +2011,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-SIL-AR-00172');
         $part->setPrice('169.98');
         $part->setStock(11);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catechappement);
@@ -2022,7 +2022,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-DSC-EM-00173');
         $part->setPrice('68.27');
         $part->setStock(31);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cattransmission);
@@ -2033,7 +2033,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FEU-BR-00174');
         $part->setPrice('68.16');
         $part->setStock(47);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cateclairage);
@@ -2044,7 +2044,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-CAP-AC-00175');
         $part->setPrice('108.65');
         $part->setStock(44);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catallumage);
@@ -2055,7 +2055,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-JNT-CO-00176');
         $part->setPrice('34.91');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catechappement);
@@ -2066,7 +2066,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLT-HA-00177');
         $part->setPrice('15.74');
         $part->setStock(58);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfiltration);
@@ -2077,7 +2077,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-AMP-H7-00178');
         $part->setPrice('8.29');
         $part->setStock(29);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cateclairage);
@@ -2088,7 +2088,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-PRJ-AD-00179');
         $part->setPrice('220.08');
         $part->setStock(40);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($cateclairage);
@@ -2099,7 +2099,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-TUY-RS-00180');
         $part->setPrice('36.52');
         $part->setStock(23);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catrefroidissement);
@@ -2110,7 +2110,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-VNT-MT-00181');
         $part->setPrice('86.38');
         $part->setStock(61);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catrefroidissement);
@@ -2121,7 +2121,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLT-BT-00182');
         $part->setPrice('43.98');
         $part->setStock(67);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfiltration);
@@ -2132,7 +2132,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-KIT-ET-00183');
         $part->setPrice('28.47');
         $part->setStock(12);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfreinage);
@@ -2143,7 +2143,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-SON-LB-00184');
         $part->setPrice('65.25');
         $part->setStock(46);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catechappement);
@@ -2154,7 +2154,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLT-HU-00185');
         $part->setPrice('11.74');
         $part->setStock(68);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfiltration);
@@ -2165,7 +2165,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-MOT-LV-00186');
         $part->setPrice('76.55');
         $part->setStock(6);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -2176,7 +2176,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLT-AI-00187');
         $part->setPrice('15.89');
         $part->setStock(16);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfiltration);
@@ -2187,7 +2187,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-CAP-PM-00188');
         $part->setPrice('90.79');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -2198,7 +2198,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLT-GS-00189');
         $part->setPrice('45.16');
         $part->setStock(73);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfiltration);
@@ -2209,7 +2209,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-BGI-IR-00190');
         $part->setPrice('25.14');
         $part->setStock(56);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catallumage);
@@ -2220,7 +2220,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-FLX-EC-00191');
         $part->setPrice('36.06');
         $part->setStock(6);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catechappement);
@@ -2231,7 +2231,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-DSC-AV-00192');
         $part->setPrice('114.99');
         $part->setStock(61);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfreinage);
@@ -2242,7 +2242,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-CAL-JT-00193');
         $part->setPrice('52.0');
         $part->setStock(51);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catrefroidissement);
@@ -2253,7 +2253,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-ETR-AV-00194');
         $part->setPrice('64.26');
         $part->setStock(80);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfreinage);
@@ -2264,7 +2264,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-RAD-RF-00195');
         $part->setPrice('95.45');
         $part->setStock(19);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catrefroidissement);
@@ -2275,7 +2275,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-BGI-ST-00196');
         $part->setPrice('17.29');
         $part->setStock(10);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catallumage);
@@ -2286,7 +2286,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-RES-AV-00197');
         $part->setPrice('32.7');
         $part->setStock(53);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catsuspension);
@@ -2297,7 +2297,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-DSC-AR-00198');
         $part->setPrice('64.96');
         $part->setStock(79);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catfreinage);
@@ -2308,7 +2308,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-ALT-RC-00199');
         $part->setPrice('238.5');
         $part->setStock(48);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catelectricite);
@@ -2319,7 +2319,7 @@ class AppFixtures extends Fixture
         $part->setReference('NGK-CAT-AV-00200');
         $part->setPrice('419.81');
         $part->setStock(38);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandNGK);
         $part->setCategory($catechappement);
@@ -2330,7 +2330,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-RES-AR-00201');
         $part->setPrice('47.39');
         $part->setStock(76);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2341,7 +2341,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-SON-LB-00202');
         $part->setPrice('119.83');
         $part->setStock(41);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catechappement);
@@ -2352,7 +2352,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BRK-AR-00203');
         $part->setPrice('25.01');
         $part->setStock(11);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfreinage);
@@ -2363,7 +2363,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FLX-EC-00204');
         $part->setPrice('82.71');
         $part->setStock(73);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catechappement);
@@ -2374,7 +2374,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-RES-AV-00205');
         $part->setPrice('86.8');
         $part->setStock(34);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2385,7 +2385,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-ROT-DI-00206');
         $part->setPrice('22.01');
         $part->setStock(22);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2396,7 +2396,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-JNT-EX-00207');
         $part->setPrice('63.73');
         $part->setStock(56);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cattransmission);
@@ -2407,7 +2407,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-CAP-AC-00208');
         $part->setPrice('65.87');
         $part->setStock(74);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catallumage);
@@ -2418,7 +2418,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-PRJ-AG-00209');
         $part->setPrice('201.48');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cateclairage);
@@ -2429,7 +2429,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-CAL-JT-00210');
         $part->setPrice('36.15');
         $part->setStock(52);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catrefroidissement);
@@ -2440,7 +2440,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FLT-AI-00211');
         $part->setPrice('16.67');
         $part->setStock(13);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfiltration);
@@ -2451,7 +2451,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-JNT-CO-00212');
         $part->setPrice('16.9');
         $part->setStock(63);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catechappement);
@@ -2462,7 +2462,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FLT-GS-00213');
         $part->setPrice('37.18');
         $part->setStock(51);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfiltration);
@@ -2473,7 +2473,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-ROT-EX-00214');
         $part->setPrice('22.02');
         $part->setStock(11);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catdirection);
@@ -2484,7 +2484,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-PMP-EA-00215');
         $part->setPrice('61.5');
         $part->setStock(14);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catrefroidissement);
@@ -2495,7 +2495,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-SON-LA-00216');
         $part->setPrice('126.49');
         $part->setStock(0);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(false);
         $part->setBrand($brandSachs);
         $part->setCategory($catelectricite);
@@ -2506,7 +2506,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-RLM-AV-00217');
         $part->setPrice('108.9');
         $part->setStock(59);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2517,7 +2517,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-PRJ-AD-00218');
         $part->setPrice('76.65');
         $part->setStock(66);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cateclairage);
@@ -2528,7 +2528,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-RLM-BV-00219');
         $part->setPrice('66.6');
         $part->setStock(63);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cattransmission);
@@ -2539,7 +2539,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-KIT-ET-00220');
         $part->setPrice('34.36');
         $part->setStock(6);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfreinage);
@@ -2550,7 +2550,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-CAB-BG-00221');
         $part->setPrice('25.68');
         $part->setStock(16);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catallumage);
@@ -2561,7 +2561,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FEU-AG-00222');
         $part->setPrice('104.15');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cateclairage);
@@ -2572,7 +2572,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BIE-DI-00223');
         $part->setPrice('19.5');
         $part->setStock(80);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catdirection);
@@ -2583,7 +2583,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-COL-DI-00224');
         $part->setPrice('223.88');
         $part->setStock(20);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catdirection);
@@ -2594,7 +2594,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-AMO-AR-00225');
         $part->setPrice('106.1');
         $part->setStock(70);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2605,7 +2605,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-ALT-RC-00226');
         $part->setPrice('112.24');
         $part->setStock(14);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catelectricite);
@@ -2616,7 +2616,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-AMO-AV-00227');
         $part->setPrice('172.85');
         $part->setStock(19);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2627,7 +2627,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-RAD-RF-00228');
         $part->setPrice('266.87');
         $part->setStock(37);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catrefroidissement);
@@ -2638,7 +2638,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BIE-BS-00229');
         $part->setPrice('39.69');
         $part->setStock(53);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2649,7 +2649,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FLT-HU-00230');
         $part->setPrice('24.62');
         $part->setStock(31);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfiltration);
@@ -2660,7 +2660,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-SOF-CD-00231');
         $part->setPrice('34.29');
         $part->setStock(49);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cattransmission);
@@ -2671,7 +2671,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-AMP-H4-00232');
         $part->setPrice('16.91');
         $part->setStock(65);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cateclairage);
@@ -2682,7 +2682,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-VNT-MT-00233');
         $part->setPrice('182.5');
         $part->setStock(8);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catrefroidissement);
@@ -2693,7 +2693,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-DSC-EM-00234');
         $part->setPrice('126.13');
         $part->setStock(53);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cattransmission);
@@ -2704,7 +2704,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-TUY-RS-00235');
         $part->setPrice('42.83');
         $part->setStock(64);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catrefroidissement);
@@ -2715,7 +2715,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FEU-BR-00236');
         $part->setPrice('78.34');
         $part->setStock(36);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cateclairage);
@@ -2726,7 +2726,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BGI-ST-00237');
         $part->setPrice('8.18');
         $part->setStock(75);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catallumage);
@@ -2737,7 +2737,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-DSC-AV-00238');
         $part->setPrice('119.91');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfreinage);
@@ -2748,7 +2748,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-DST-AL-00239');
         $part->setPrice('84.65');
         $part->setStock(61);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catallumage);
@@ -2759,7 +2759,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BUT-EM-00240');
         $part->setPrice('43.28');
         $part->setStock(69);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cattransmission);
@@ -2770,7 +2770,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-REL-PC-00241');
         $part->setPrice('37.12');
         $part->setStock(41);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catelectricite);
@@ -2781,7 +2781,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-KIT-EM-00242');
         $part->setPrice('315.58');
         $part->setStock(30);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($cattransmission);
@@ -2792,7 +2792,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-SIL-BR-00243');
         $part->setPrice('24.64');
         $part->setStock(52);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catsuspension);
@@ -2803,7 +2803,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BRK-AV-00244');
         $part->setPrice('32.95');
         $part->setStock(60);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfreinage);
@@ -2814,7 +2814,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-SIL-AR-00245');
         $part->setPrice('187.45');
         $part->setStock(48);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catechappement);
@@ -2825,7 +2825,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-ETR-AV-00246');
         $part->setPrice('178.55');
         $part->setStock(19);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfreinage);
@@ -2836,7 +2836,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-DEM-RC-00247');
         $part->setPrice('253.84');
         $part->setStock(16);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catelectricite);
@@ -2847,7 +2847,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FLT-HA-00248');
         $part->setPrice('29.24');
         $part->setStock(42);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfiltration);
@@ -2858,7 +2858,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-BGI-IR-00249');
         $part->setPrice('36.48');
         $part->setStock(56);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catallumage);
@@ -2869,7 +2869,7 @@ class AppFixtures extends Fixture
         $part->setReference('SCH-FLT-CB-00250');
         $part->setPrice('28.41');
         $part->setStock(58);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSachs);
         $part->setCategory($catfiltration);
@@ -2880,7 +2880,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-THR-MT-00251');
         $part->setPrice('31.76');
         $part->setStock(1);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catrefroidissement);
@@ -2891,7 +2891,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-AMP-H7-00252');
         $part->setPrice('16.62');
         $part->setStock(69);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cateclairage);
@@ -2902,7 +2902,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-CAB-BG-00253');
         $part->setPrice('17.95');
         $part->setStock(44);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catallumage);
@@ -2913,7 +2913,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FLT-HU-00254');
         $part->setPrice('11.68');
         $part->setStock(54);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfiltration);
@@ -2924,7 +2924,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-REL-PC-00255');
         $part->setPrice('28.5');
         $part->setStock(38);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catelectricite);
@@ -2935,7 +2935,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FLT-GS-00256');
         $part->setPrice('49.98');
         $part->setStock(61);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfiltration);
@@ -2946,7 +2946,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-CAP-AC-00257');
         $part->setPrice('72.28');
         $part->setStock(73);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catallumage);
@@ -2957,7 +2957,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-SON-LA-00258');
         $part->setPrice('97.48');
         $part->setStock(37);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catelectricite);
@@ -2968,7 +2968,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-DSC-AR-00259');
         $part->setPrice('88.63');
         $part->setStock(50);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfreinage);
@@ -2979,7 +2979,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-SIL-AR-00260');
         $part->setPrice('56.17');
         $part->setStock(6);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catechappement);
@@ -2990,7 +2990,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-RLM-BV-00261');
         $part->setPrice('74.2');
         $part->setStock(36);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cattransmission);
@@ -3001,7 +3001,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-RES-AR-00262');
         $part->setPrice('57.21');
         $part->setStock(45);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catsuspension);
@@ -3012,7 +3012,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-TUY-RS-00263');
         $part->setPrice('33.01');
         $part->setStock(79);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catrefroidissement);
@@ -3023,7 +3023,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-CAP-AB-00264');
         $part->setPrice('92.61');
         $part->setStock(17);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catelectricite);
@@ -3034,7 +3034,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-SON-LB-00265');
         $part->setPrice('46.94');
         $part->setStock(80);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catechappement);
@@ -3045,7 +3045,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-PRJ-AG-00266');
         $part->setPrice('73.48');
         $part->setStock(56);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cateclairage);
@@ -3056,7 +3056,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-VNT-MT-00267');
         $part->setPrice('139.04');
         $part->setStock(16);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catrefroidissement);
@@ -3067,7 +3067,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-ROT-EX-00268');
         $part->setPrice('70.03');
         $part->setStock(41);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catdirection);
@@ -3078,7 +3078,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-KIT-ET-00269');
         $part->setPrice('33.37');
         $part->setStock(25);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfreinage);
@@ -3089,7 +3089,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-BIE-DI-00270');
         $part->setPrice('58.9');
         $part->setStock(46);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catdirection);
@@ -3100,7 +3100,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FLT-BT-00271');
         $part->setPrice('35.07');
         $part->setStock(34);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfiltration);
@@ -3111,7 +3111,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-DSC-EM-00272');
         $part->setPrice('71.98');
         $part->setStock(61);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cattransmission);
@@ -3122,7 +3122,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FLT-HA-00273');
         $part->setPrice('24.42');
         $part->setStock(43);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfiltration);
@@ -3133,7 +3133,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-SIL-IN-00274');
         $part->setPrice('137.59');
         $part->setStock(9);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catechappement);
@@ -3144,7 +3144,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-SIL-BR-00275');
         $part->setPrice('36.89');
         $part->setStock(28);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catsuspension);
@@ -3155,7 +3155,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FLT-CB-00276');
         $part->setPrice('35.35');
         $part->setStock(50);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfiltration);
@@ -3166,7 +3166,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-BRK-AR-00277');
         $part->setPrice('29.63');
         $part->setStock(50);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfreinage);
@@ -3177,7 +3177,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-BRK-AV-00278');
         $part->setPrice('30.43');
         $part->setStock(15);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfreinage);
@@ -3188,7 +3188,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FEU-AG-00279');
         $part->setPrice('94.76');
         $part->setStock(33);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cateclairage);
@@ -3199,7 +3199,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-RES-AV-00280');
         $part->setPrice('49.77');
         $part->setStock(47);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catsuspension);
@@ -3210,7 +3210,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-DEM-RC-00281');
         $part->setPrice('203.1');
         $part->setStock(60);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catelectricite);
@@ -3221,7 +3221,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-KIT-EM-00282');
         $part->setPrice('232.5');
         $part->setStock(71);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cattransmission);
@@ -3232,7 +3232,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-SOF-CD-00283');
         $part->setPrice('47.03');
         $part->setStock(28);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cattransmission);
@@ -3243,7 +3243,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FLX-FR-00284');
         $part->setPrice('13.77');
         $part->setStock(59);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfreinage);
@@ -3254,7 +3254,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-RLM-AV-00285');
         $part->setPrice('60.69');
         $part->setStock(52);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catsuspension);
@@ -3265,7 +3265,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-COL-DI-00286');
         $part->setPrice('105.16');
         $part->setStock(4);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catdirection);
@@ -3276,7 +3276,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-BGI-ST-00287');
         $part->setPrice('17.94');
         $part->setStock(14);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catallumage);
@@ -3287,7 +3287,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-FEU-BR-00288');
         $part->setPrice('40.26');
         $part->setStock(68);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cateclairage);
@@ -3298,7 +3298,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-BGI-IR-00289');
         $part->setPrice('22.88');
         $part->setStock(47);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catallumage);
@@ -3309,7 +3309,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-PRJ-AD-00290');
         $part->setPrice('269.12');
         $part->setStock(69);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cateclairage);
@@ -3320,7 +3320,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-CRM-DI-00291');
         $part->setPrice('272.71');
         $part->setStock(19);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catdirection);
@@ -3331,7 +3331,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-DSC-AV-00292');
         $part->setPrice('90.67');
         $part->setStock(62);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catfreinage);
@@ -3342,7 +3342,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-CAT-AV-00293');
         $part->setPrice('254.68');
         $part->setStock(35);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catechappement);
@@ -3353,7 +3353,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-JNT-EX-00294');
         $part->setPrice('74.87');
         $part->setStock(27);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cattransmission);
@@ -3364,7 +3364,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-CAP-PM-00295');
         $part->setPrice('61.13');
         $part->setStock(30);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catelectricite);
@@ -3375,7 +3375,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-AMO-AV-00296');
         $part->setPrice('58.41');
         $part->setStock(47);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catsuspension);
@@ -3386,7 +3386,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-ROT-DI-00297');
         $part->setPrice('65.08');
         $part->setStock(45);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catsuspension);
@@ -3397,7 +3397,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-ALT-RC-00298');
         $part->setPrice('168.66');
         $part->setStock(24);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catelectricite);
@@ -3408,7 +3408,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-PMP-EA-00299');
         $part->setPrice('134.65');
         $part->setStock(58);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($catrefroidissement);
@@ -3419,7 +3419,7 @@ class AppFixtures extends Fixture
         $part->setReference('FEB-AMP-H4-00300');
         $part->setPrice('13.28');
         $part->setStock(76);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandFebiBilstein);
         $part->setCategory($cateclairage);
@@ -3430,7 +3430,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-DSC-EM-00301');
         $part->setPrice('96.48');
         $part->setStock(56);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cattransmission);
@@ -3441,7 +3441,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FEU-BR-00302');
         $part->setPrice('83.45');
         $part->setStock(41);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cateclairage);
@@ -3452,7 +3452,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CRM-DI-00303');
         $part->setPrice('158.57');
         $part->setStock(16);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catdirection);
@@ -3463,7 +3463,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-DST-AL-00304');
         $part->setPrice('102.43');
         $part->setStock(74);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catallumage);
@@ -3474,7 +3474,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CYL-RO-00305');
         $part->setPrice('48.49');
         $part->setStock(48);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfreinage);
@@ -3485,7 +3485,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-VNT-MT-00306');
         $part->setPrice('131.93');
         $part->setStock(58);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catrefroidissement);
@@ -3496,7 +3496,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FLT-GS-00307');
         $part->setPrice('35.01');
         $part->setStock(12);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfiltration);
@@ -3507,7 +3507,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-SIL-BR-00308');
         $part->setPrice('15.78');
         $part->setStock(70);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3518,7 +3518,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-SIL-AR-00309');
         $part->setPrice('180.5');
         $part->setStock(55);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catechappement);
@@ -3529,7 +3529,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-KIT-EM-00310');
         $part->setPrice('294.26');
         $part->setStock(52);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cattransmission);
@@ -3540,7 +3540,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-BUT-EM-00311');
         $part->setPrice('70.51');
         $part->setStock(51);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cattransmission);
@@ -3551,7 +3551,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FLT-CB-00312');
         $part->setPrice('35.54');
         $part->setStock(40);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfiltration);
@@ -3562,7 +3562,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CAP-AC-00313');
         $part->setPrice('80.94');
         $part->setStock(32);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catallumage);
@@ -3573,7 +3573,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-PRJ-AD-00314');
         $part->setPrice('270.02');
         $part->setStock(60);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cateclairage);
@@ -3584,7 +3584,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CAL-JT-00315');
         $part->setPrice('19.11');
         $part->setStock(10);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catrefroidissement);
@@ -3595,7 +3595,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-MOT-LV-00316');
         $part->setPrice('94.67');
         $part->setStock(47);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catelectricite);
@@ -3606,7 +3606,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-SOF-CD-00317');
         $part->setPrice('34.47');
         $part->setStock(75);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cattransmission);
@@ -3617,7 +3617,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-ROT-DI-00318');
         $part->setPrice('48.08');
         $part->setStock(15);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3628,7 +3628,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-BIE-BS-00319');
         $part->setPrice('27.38');
         $part->setStock(54);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3639,7 +3639,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-JNT-EX-00320');
         $part->setPrice('33.34');
         $part->setStock(36);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cattransmission);
@@ -3650,7 +3650,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FEU-AG-00321');
         $part->setPrice('87.18');
         $part->setStock(13);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cateclairage);
@@ -3661,7 +3661,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-AMP-H7-00322');
         $part->setPrice('11.1');
         $part->setStock(19);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cateclairage);
@@ -3672,7 +3672,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-DSC-AV-00323');
         $part->setPrice('75.99');
         $part->setStock(13);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfreinage);
@@ -3683,7 +3683,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-RLM-AV-00324');
         $part->setPrice('106.86');
         $part->setStock(47);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3694,7 +3694,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-DSC-AR-00325');
         $part->setPrice('75.28');
         $part->setStock(73);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfreinage);
@@ -3705,7 +3705,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-RAD-RF-00326');
         $part->setPrice('242.41');
         $part->setStock(71);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catrefroidissement);
@@ -3716,7 +3716,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-SON-LB-00327');
         $part->setPrice('94.45');
         $part->setStock(71);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catechappement);
@@ -3727,7 +3727,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-RES-AR-00328');
         $part->setPrice('57.32');
         $part->setStock(34);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3738,7 +3738,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-COL-DI-00329');
         $part->setPrice('112.47');
         $part->setStock(39);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catdirection);
@@ -3749,7 +3749,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-RLM-BV-00330');
         $part->setPrice('49.76');
         $part->setStock(23);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cattransmission);
@@ -3760,7 +3760,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-JNT-CO-00331');
         $part->setPrice('23.29');
         $part->setStock(51);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catechappement);
@@ -3771,7 +3771,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CAP-PM-00332');
         $part->setPrice('39.93');
         $part->setStock(3);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catelectricite);
@@ -3782,7 +3782,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CAT-AV-00333');
         $part->setPrice('366.22');
         $part->setStock(27);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catechappement);
@@ -3793,7 +3793,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-AMO-AV-00334');
         $part->setPrice('101.68');
         $part->setStock(43);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3804,7 +3804,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-AMP-H4-00335');
         $part->setPrice('9.18');
         $part->setStock(41);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cateclairage);
@@ -3815,7 +3815,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-RES-AV-00336');
         $part->setPrice('63.75');
         $part->setStock(6);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3826,7 +3826,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-TUY-RS-00337');
         $part->setPrice('17.19');
         $part->setStock(79);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catrefroidissement);
@@ -3837,7 +3837,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-PMP-EA-00338');
         $part->setPrice('105.77');
         $part->setStock(34);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catrefroidissement);
@@ -3848,7 +3848,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-BRK-AR-00339');
         $part->setPrice('41.48');
         $part->setStock(62);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfreinage);
@@ -3859,7 +3859,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-KIT-ET-00340');
         $part->setPrice('34.36');
         $part->setStock(34);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfreinage);
@@ -3870,7 +3870,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FLT-HA-00341');
         $part->setPrice('24.61');
         $part->setStock(14);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfiltration);
@@ -3881,7 +3881,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-BOB-AL-00342');
         $part->setPrice('71.54');
         $part->setStock(36);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catallumage);
@@ -3892,7 +3892,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-ALT-RC-00343');
         $part->setPrice('220.52');
         $part->setStock(62);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catelectricite);
@@ -3903,7 +3903,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FEU-AD-00344');
         $part->setPrice('135.06');
         $part->setStock(5);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($cateclairage);
@@ -3914,7 +3914,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-PMP-DA-00345');
         $part->setPrice('183.93');
         $part->setStock(76);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catdirection);
@@ -3925,7 +3925,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-CAB-BG-00346');
         $part->setPrice('15.31');
         $part->setStock(38);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catallumage);
@@ -3936,7 +3936,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-BRK-AV-00347');
         $part->setPrice('54.07');
         $part->setStock(32);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfreinage);
@@ -3947,7 +3947,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-REL-PC-00348');
         $part->setPrice('31.78');
         $part->setStock(0);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(false);
         $part->setBrand($brandDelphi);
         $part->setCategory($catelectricite);
@@ -3958,7 +3958,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-FLT-AI-00349');
         $part->setPrice('28.17');
         $part->setStock(22);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catfiltration);
@@ -3969,7 +3969,7 @@ class AppFixtures extends Fixture
         $part->setReference('DLP-AMO-AR-00350');
         $part->setPrice('85.62');
         $part->setStock(29);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandDelphi);
         $part->setCategory($catsuspension);
@@ -3980,7 +3980,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-BUT-EM-00351');
         $part->setPrice('34.74');
         $part->setStock(80);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cattransmission);
@@ -3991,7 +3991,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-BRK-AV-00352');
         $part->setPrice('39.81');
         $part->setStock(72);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfreinage);
@@ -4002,7 +4002,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLT-HU-00353');
         $part->setPrice('14.53');
         $part->setStock(72);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfiltration);
@@ -4013,7 +4013,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-BGI-ST-00354');
         $part->setPrice('12.89');
         $part->setStock(79);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catallumage);
@@ -4024,7 +4024,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-RLM-BV-00355');
         $part->setPrice('81.58');
         $part->setStock(80);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cattransmission);
@@ -4035,7 +4035,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-CAB-BG-00356');
         $part->setPrice('21.04');
         $part->setStock(8);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catallumage);
@@ -4046,7 +4046,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-KIT-EM-00357');
         $part->setPrice('191.71');
         $part->setStock(38);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cattransmission);
@@ -4057,7 +4057,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FEU-AD-00358');
         $part->setPrice('124.84');
         $part->setStock(45);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cateclairage);
@@ -4068,7 +4068,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLT-BT-00359');
         $part->setPrice('17.97');
         $part->setStock(59);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfiltration);
@@ -4079,7 +4079,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-PMP-EA-00360');
         $part->setPrice('38.95');
         $part->setStock(47);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catrefroidissement);
@@ -4090,7 +4090,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-CAP-AC-00361');
         $part->setPrice('53.82');
         $part->setStock(11);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catallumage);
@@ -4101,7 +4101,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-RES-AV-00362');
         $part->setPrice('63.62');
         $part->setStock(49);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catsuspension);
@@ -4112,7 +4112,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-ROT-DI-00363');
         $part->setPrice('49.02');
         $part->setStock(5);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catsuspension);
@@ -4123,7 +4123,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-ALT-RC-00364');
         $part->setPrice('263.17');
         $part->setStock(73);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catelectricite);
@@ -4134,7 +4134,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-SIL-IN-00365');
         $part->setPrice('94.18');
         $part->setStock(77);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catechappement);
@@ -4145,7 +4145,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLT-HA-00366');
         $part->setPrice('19.03');
         $part->setStock(7);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfiltration);
@@ -4156,7 +4156,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-DEM-RC-00367');
         $part->setPrice('103.11');
         $part->setStock(43);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catelectricite);
@@ -4167,7 +4167,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-TUY-RS-00368');
         $part->setPrice('14.78');
         $part->setStock(22);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catrefroidissement);
@@ -4178,7 +4178,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-AMO-AR-00369');
         $part->setPrice('69.73');
         $part->setStock(56);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catsuspension);
@@ -4189,7 +4189,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-DSC-AR-00370');
         $part->setPrice('60.49');
         $part->setStock(78);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfreinage);
@@ -4200,7 +4200,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-THR-MT-00371');
         $part->setPrice('27.65');
         $part->setStock(36);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catrefroidissement);
@@ -4211,7 +4211,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-BOB-AL-00372');
         $part->setPrice('69.75');
         $part->setStock(43);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catallumage);
@@ -4222,7 +4222,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-PRJ-AD-00373');
         $part->setPrice('193.55');
         $part->setStock(80);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cateclairage);
@@ -4233,7 +4233,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-JNT-EX-00374');
         $part->setPrice('51.75');
         $part->setStock(42);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cattransmission);
@@ -4244,7 +4244,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FEU-AG-00375');
         $part->setPrice('120.33');
         $part->setStock(49);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cateclairage);
@@ -4255,7 +4255,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-SIL-AR-00376');
         $part->setPrice('91.54');
         $part->setStock(77);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catechappement);
@@ -4266,7 +4266,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-RAD-RF-00377');
         $part->setPrice('150.01');
         $part->setStock(74);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catrefroidissement);
@@ -4277,7 +4277,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-REL-PC-00378');
         $part->setPrice('23.94');
         $part->setStock(44);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catelectricite);
@@ -4288,7 +4288,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-AMP-H7-00379');
         $part->setPrice('17.55');
         $part->setStock(50);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cateclairage);
@@ -4299,7 +4299,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-SOF-CD-00380');
         $part->setPrice('35.83');
         $part->setStock(10);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cattransmission);
@@ -4310,7 +4310,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLT-GS-00381');
         $part->setPrice('33.24');
         $part->setStock(42);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfiltration);
@@ -4321,7 +4321,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-SON-LA-00382');
         $part->setPrice('107.01');
         $part->setStock(67);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catelectricite);
@@ -4332,7 +4332,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-CAL-JT-00383');
         $part->setPrice('44.07');
         $part->setStock(54);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catrefroidissement);
@@ -4343,7 +4343,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-SON-LB-00384');
         $part->setPrice('71.29');
         $part->setStock(46);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catechappement);
@@ -4354,7 +4354,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-BGI-IR-00385');
         $part->setPrice('17.05');
         $part->setStock(27);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catallumage);
@@ -4365,7 +4365,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLX-FR-00386');
         $part->setPrice('38.53');
         $part->setStock(62);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfreinage);
@@ -4376,7 +4376,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-JNT-CO-00387');
         $part->setPrice('14.12');
         $part->setStock(17);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catechappement);
@@ -4387,7 +4387,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-CYL-RO-00388');
         $part->setPrice('23.09');
         $part->setStock(12);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfreinage);
@@ -4398,7 +4398,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-RES-AR-00389');
         $part->setPrice('66.71');
         $part->setStock(67);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catsuspension);
@@ -4409,7 +4409,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-ROT-EX-00390');
         $part->setPrice('56.41');
         $part->setStock(79);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catdirection);
@@ -4420,7 +4420,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-MOT-LV-00391');
         $part->setPrice('113.68');
         $part->setStock(19);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catelectricite);
@@ -4431,7 +4431,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLT-CB-00392');
         $part->setPrice('16.33');
         $part->setStock(79);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfiltration);
@@ -4442,7 +4442,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-CRM-DI-00393');
         $part->setPrice('307.51');
         $part->setStock(5);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catdirection);
@@ -4453,7 +4453,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-COL-DI-00394');
         $part->setPrice('145.57');
         $part->setStock(30);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catdirection);
@@ -4464,7 +4464,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FLX-EC-00395');
         $part->setPrice('61.64');
         $part->setStock(57);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catechappement);
@@ -4475,7 +4475,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-KIT-ET-00396');
         $part->setPrice('37.76');
         $part->setStock(39);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catfreinage);
@@ -4486,7 +4486,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-DST-AL-00397');
         $part->setPrice('130.4');
         $part->setStock(24);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catallumage);
@@ -4497,7 +4497,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-SIL-BR-00398');
         $part->setPrice('34.38');
         $part->setStock(73);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catsuspension);
@@ -4508,7 +4508,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-CAP-PM-00399');
         $part->setPrice('62.32');
         $part->setStock(36);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($catelectricite);
@@ -4519,7 +4519,7 @@ class AppFixtures extends Fixture
         $part->setReference('HLA-FEU-BR-00400');
         $part->setPrice('57.69');
         $part->setStock(53);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandHella);
         $part->setCategory($cateclairage);
@@ -4530,7 +4530,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CRM-DI-00401');
         $part->setPrice('181.79');
         $part->setStock(15);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catdirection);
@@ -4541,7 +4541,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FEU-AD-00402');
         $part->setPrice('77.19');
         $part->setStock(79);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cateclairage);
@@ -4552,7 +4552,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLT-BT-00403');
         $part->setPrice('17.51');
         $part->setStock(63);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfiltration);
@@ -4563,7 +4563,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-ROT-DI-00404');
         $part->setPrice('46.8');
         $part->setStock(80);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catsuspension);
@@ -4574,7 +4574,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-PRJ-AD-00405');
         $part->setPrice('188.64');
         $part->setStock(18);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cateclairage);
@@ -4585,7 +4585,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLT-HU-00406');
         $part->setPrice('14.16');
         $part->setStock(78);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfiltration);
@@ -4596,7 +4596,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-DSC-EM-00407');
         $part->setPrice('70.26');
         $part->setStock(53);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cattransmission);
@@ -4607,7 +4607,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-AMO-AR-00408');
         $part->setPrice('119.72');
         $part->setStock(10);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catsuspension);
@@ -4618,7 +4618,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLX-EC-00409');
         $part->setPrice('83.48');
         $part->setStock(8);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catechappement);
@@ -4629,7 +4629,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CAP-AB-00410');
         $part->setPrice('81.25');
         $part->setStock(64);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catelectricite);
@@ -4640,7 +4640,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-TUY-RS-00411');
         $part->setPrice('12.67');
         $part->setStock(60);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catrefroidissement);
@@ -4651,7 +4651,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CAP-PM-00412');
         $part->setPrice('74.5');
         $part->setStock(47);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catelectricite);
@@ -4662,7 +4662,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-THR-MT-00413');
         $part->setPrice('44.13');
         $part->setStock(45);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catrefroidissement);
@@ -4673,7 +4673,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-MOT-LV-00414');
         $part->setPrice('84.65');
         $part->setStock(80);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catelectricite);
@@ -4684,7 +4684,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-PRJ-AG-00415');
         $part->setPrice('230.87');
         $part->setStock(42);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cateclairage);
@@ -4695,7 +4695,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CAP-AC-00416');
         $part->setPrice('50.1');
         $part->setStock(69);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catallumage);
@@ -4706,7 +4706,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-JNT-EX-00417');
         $part->setPrice('82.88');
         $part->setStock(22);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cattransmission);
@@ -4717,7 +4717,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-PMP-EA-00418');
         $part->setPrice('83.79');
         $part->setStock(61);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catrefroidissement);
@@ -4728,7 +4728,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-SON-LA-00419');
         $part->setPrice('58.23');
         $part->setStock(17);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catelectricite);
@@ -4739,7 +4739,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-JNT-CO-00420');
         $part->setPrice('27.33');
         $part->setStock(58);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catechappement);
@@ -4750,7 +4750,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-ETR-AV-00421');
         $part->setPrice('91.68');
         $part->setStock(5);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfreinage);
@@ -4761,7 +4761,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-ALT-RC-00422');
         $part->setPrice('258.87');
         $part->setStock(40);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catelectricite);
@@ -4772,7 +4772,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-AMO-AV-00423');
         $part->setPrice('114.58');
         $part->setStock(69);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catsuspension);
@@ -4783,7 +4783,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-REL-PC-00424');
         $part->setPrice('28.64');
         $part->setStock(24);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catelectricite);
@@ -4794,7 +4794,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-COL-DI-00425');
         $part->setPrice('144.26');
         $part->setStock(6);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catdirection);
@@ -4805,7 +4805,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CAT-AV-00426');
         $part->setPrice('229.54');
         $part->setStock(15);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catechappement);
@@ -4816,7 +4816,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-BRK-AV-00427');
         $part->setPrice('38.54');
         $part->setStock(51);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfreinage);
@@ -4827,7 +4827,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-SON-LB-00428');
         $part->setPrice('78.46');
         $part->setStock(49);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catechappement);
@@ -4838,7 +4838,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLT-HA-00429');
         $part->setPrice('29.42');
         $part->setStock(63);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfiltration);
@@ -4849,7 +4849,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-DSC-AV-00430');
         $part->setPrice('77.29');
         $part->setStock(66);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfreinage);
@@ -4860,7 +4860,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLT-GS-00431');
         $part->setPrice('42.44');
         $part->setStock(54);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfiltration);
@@ -4871,7 +4871,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-BGI-IR-00432');
         $part->setPrice('24.06');
         $part->setStock(23);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catallumage);
@@ -4882,7 +4882,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-ROT-EX-00433');
         $part->setPrice('36.16');
         $part->setStock(13);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catdirection);
@@ -4893,7 +4893,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CAL-JT-00434');
         $part->setPrice('29.76');
         $part->setStock(37);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catrefroidissement);
@@ -4904,7 +4904,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FEU-BR-00435');
         $part->setPrice('53.98');
         $part->setStock(54);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cateclairage);
@@ -4915,7 +4915,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FEU-AG-00436');
         $part->setPrice('138.12');
         $part->setStock(44);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cateclairage);
@@ -4926,7 +4926,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-SIL-BR-00437');
         $part->setPrice('13.4');
         $part->setStock(45);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catsuspension);
@@ -4937,7 +4937,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-BRK-AR-00438');
         $part->setPrice('54.93');
         $part->setStock(35);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfreinage);
@@ -4948,7 +4948,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-RES-AV-00439');
         $part->setPrice('88.7');
         $part->setStock(7);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catsuspension);
@@ -4959,7 +4959,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-BIE-DI-00440');
         $part->setPrice('52.9');
         $part->setStock(51);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catdirection);
@@ -4970,7 +4970,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-BGI-ST-00441');
         $part->setPrice('11.18');
         $part->setStock(20);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catallumage);
@@ -4981,7 +4981,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-SIL-AR-00442');
         $part->setPrice('75.7');
         $part->setStock(77);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catechappement);
@@ -4992,7 +4992,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-RLM-AV-00443');
         $part->setPrice('101.41');
         $part->setStock(4);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catsuspension);
@@ -5003,7 +5003,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLT-AI-00444');
         $part->setPrice('9.82');
         $part->setStock(46);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfiltration);
@@ -5014,7 +5014,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-RLM-BV-00445');
         $part->setPrice('51.74');
         $part->setStock(72);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cattransmission);
@@ -5025,7 +5025,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-KIT-EM-00446');
         $part->setPrice('229.17');
         $part->setStock(57);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cattransmission);
@@ -5036,7 +5036,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-AMP-H7-00447');
         $part->setPrice('9.21');
         $part->setStock(9);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($cateclairage);
@@ -5047,7 +5047,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-FLT-CB-00448');
         $part->setPrice('14.82');
         $part->setStock(46);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfiltration);
@@ -5058,7 +5058,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-SIL-IN-00449');
         $part->setPrice('113.73');
         $part->setStock(35);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catechappement);
@@ -5069,7 +5069,7 @@ class AppFixtures extends Fixture
         $part->setReference('MNR-CYL-RO-00450');
         $part->setPrice('58.42');
         $part->setStock(3);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandMonroe);
         $part->setCategory($catfreinage);
@@ -5080,7 +5080,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-DSC-AV-00451');
         $part->setPrice('89.6');
         $part->setStock(57);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5091,7 +5091,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CAT-AV-00452');
         $part->setPrice('344.44');
         $part->setStock(44);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catechappement);
@@ -5102,7 +5102,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CAP-PM-00453');
         $part->setPrice('91.46');
         $part->setStock(70);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catelectricite);
@@ -5113,7 +5113,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-AMO-AR-00454');
         $part->setPrice('110.53');
         $part->setStock(16);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catsuspension);
@@ -5124,7 +5124,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-AMP-H4-00455');
         $part->setPrice('11.04');
         $part->setStock(7);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cateclairage);
@@ -5135,7 +5135,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-SIL-BR-00456');
         $part->setPrice('29.1');
         $part->setStock(38);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catsuspension);
@@ -5146,7 +5146,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-RAD-RF-00457');
         $part->setPrice('116.58');
         $part->setStock(28);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catrefroidissement);
@@ -5157,7 +5157,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-RLM-BV-00458');
         $part->setPrice('86.74');
         $part->setStock(66);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cattransmission);
@@ -5168,7 +5168,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CRM-DI-00459');
         $part->setPrice('339.94');
         $part->setStock(32);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catdirection);
@@ -5179,7 +5179,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FEU-BR-00460');
         $part->setPrice('66.28');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cateclairage);
@@ -5190,7 +5190,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BUT-EM-00461');
         $part->setPrice('31.88');
         $part->setStock(38);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cattransmission);
@@ -5201,7 +5201,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-REL-PC-00462');
         $part->setPrice('40.41');
         $part->setStock(64);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catelectricite);
@@ -5212,7 +5212,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-JNT-CO-00463');
         $part->setPrice('12.55');
         $part->setStock(74);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catechappement);
@@ -5223,7 +5223,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BRK-AR-00464');
         $part->setPrice('21.85');
         $part->setStock(79);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5234,7 +5234,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLT-AI-00465');
         $part->setPrice('32.35');
         $part->setStock(43);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfiltration);
@@ -5245,7 +5245,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FEU-AD-00466');
         $part->setPrice('50.56');
         $part->setStock(3);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cateclairage);
@@ -5256,7 +5256,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BGI-ST-00467');
         $part->setPrice('4.64');
         $part->setStock(73);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catallumage);
@@ -5267,7 +5267,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-SON-LB-00468');
         $part->setPrice('97.9');
         $part->setStock(73);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catechappement);
@@ -5278,7 +5278,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CAP-AB-00469');
         $part->setPrice('87.54');
         $part->setStock(3);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catelectricite);
@@ -5289,7 +5289,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CAB-BG-00470');
         $part->setPrice('50.56');
         $part->setStock(69);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catallumage);
@@ -5300,7 +5300,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-DSC-EM-00471');
         $part->setPrice('112.4');
         $part->setStock(38);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cattransmission);
@@ -5311,7 +5311,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BRK-AV-00472');
         $part->setPrice('29.51');
         $part->setStock(51);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5322,7 +5322,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BGI-IR-00473');
         $part->setPrice('24.7');
         $part->setStock(7);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catallumage);
@@ -5333,7 +5333,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-RLM-AV-00474');
         $part->setPrice('72.37');
         $part->setStock(61);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catsuspension);
@@ -5344,7 +5344,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-SON-LA-00475');
         $part->setPrice('60.4');
         $part->setStock(77);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catelectricite);
@@ -5355,7 +5355,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLX-FR-00476');
         $part->setPrice('20.75');
         $part->setStock(40);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5366,7 +5366,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-DSC-AR-00477');
         $part->setPrice('89.26');
         $part->setStock(44);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5377,7 +5377,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-TUY-RS-00478');
         $part->setPrice('16.32');
         $part->setStock(47);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catrefroidissement);
@@ -5388,7 +5388,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-PMP-DA-00479');
         $part->setPrice('221.37');
         $part->setStock(40);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catdirection);
@@ -5399,7 +5399,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-SIL-IN-00480');
         $part->setPrice('137.3');
         $part->setStock(34);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catechappement);
@@ -5410,7 +5410,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BIE-BS-00481');
         $part->setPrice('23.68');
         $part->setStock(12);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catsuspension);
@@ -5421,7 +5421,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-THR-MT-00482');
         $part->setPrice('24.48');
         $part->setStock(49);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catrefroidissement);
@@ -5432,7 +5432,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLT-CB-00483');
         $part->setPrice('24.63');
         $part->setStock(20);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfiltration);
@@ -5443,7 +5443,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CAP-AC-00484');
         $part->setPrice('152.38');
         $part->setStock(40);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catallumage);
@@ -5454,7 +5454,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLX-EC-00485');
         $part->setPrice('70.79');
         $part->setStock(63);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catechappement);
@@ -5465,7 +5465,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-ALT-RC-00486');
         $part->setPrice('181.36');
         $part->setStock(39);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catelectricite);
@@ -5476,7 +5476,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-PRJ-AD-00487');
         $part->setPrice('69.98');
         $part->setStock(50);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cateclairage);
@@ -5487,7 +5487,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-ROT-EX-00488');
         $part->setPrice('45.15');
         $part->setStock(30);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catdirection);
@@ -5498,7 +5498,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-RES-AV-00489');
         $part->setPrice('62.92');
         $part->setStock(6);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catsuspension);
@@ -5509,7 +5509,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-AMO-AV-00490');
         $part->setPrice('82.98');
         $part->setStock(76);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catsuspension);
@@ -5520,7 +5520,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CYL-RO-00491');
         $part->setPrice('46.9');
         $part->setStock(36);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5531,7 +5531,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-PMP-EA-00492');
         $part->setPrice('35.86');
         $part->setStock(13);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catrefroidissement);
@@ -5542,7 +5542,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLT-HA-00493');
         $part->setPrice('10.95');
         $part->setStock(33);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfiltration);
@@ -5553,7 +5553,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-BIE-DI-00494');
         $part->setPrice('37.02');
         $part->setStock(51);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catdirection);
@@ -5564,7 +5564,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-ETR-AV-00495');
         $part->setPrice('60.66');
         $part->setStock(6);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfreinage);
@@ -5575,7 +5575,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLT-HU-00496');
         $part->setPrice('16.67');
         $part->setStock(46);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfiltration);
@@ -5586,7 +5586,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FEU-AG-00497');
         $part->setPrice('83.96');
         $part->setStock(49);
-        $part->setCondition('reconditionné');
+        $part->setPartCondition('reconditionné');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cateclairage);
@@ -5597,7 +5597,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-FLT-GS-00498');
         $part->setPrice('29.11');
         $part->setStock(70);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catfiltration);
@@ -5608,7 +5608,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-JNT-EX-00499');
         $part->setPrice('83.65');
         $part->setStock(79);
-        $part->setCondition('occasion');
+        $part->setPartCondition('occasion');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($cattransmission);
@@ -5619,7 +5619,7 @@ class AppFixtures extends Fixture
         $part->setReference('SKF-CAL-JT-00500');
         $part->setPrice('42.5');
         $part->setStock(16);
-        $part->setCondition('neuf');
+        $part->setPartCondition('neuf');
         $part->setIsAvailable(true);
         $part->setBrand($brandSKF);
         $part->setCategory($catrefroidissement);
