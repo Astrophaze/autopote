@@ -46,7 +46,7 @@ class Part
     #[ORM\Column(length: 150)]
     #[Assert\NotBlank(message: 'Le nom de la pièce est obligatoire.')]
     #[Assert\Length(max: 150, maxMessage: 'Le nom ne peut pas dépasser {{ limit }} caractères.')]
-    #[Groups(['part:read', 'category:read'])]
+    #[Groups(['part:read', 'category:read', 'brand:read'])]
     private ?string $name = null;
 
     #[ORM\Column(length: 100, unique: true)]

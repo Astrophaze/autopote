@@ -14,6 +14,7 @@ use ApiPlatform\Metadata\Post;
 use Symfony\Component\Serializer\Attribute\Groups;
 
 #[ApiResource(
+    paginationItemsPerPage: 12,
     operations: [
         new GetCollection(),
         new Get(),
@@ -51,6 +52,7 @@ class Brand
      * @var Collection<int, Part>
      */
     #[ORM\OneToMany(targetEntity: Part::class, mappedBy: 'brand')]
+    #[Groups(['brand:read'])]
     private Collection $parts;
 
     public function __construct()

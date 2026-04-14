@@ -134,6 +134,7 @@ class AppFixtures extends Fixture
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
+        $part->setDescription('Élément thermostatique régulant la température du liquide de refroidissement pour optimiser le fonctionnement du moteur');
         $manager->persist($part);
 
         $part = new Part();
@@ -156,6 +157,7 @@ class AppFixtures extends Fixture
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catfreinage);
+        $part->setDescription('Kit complet pour la réparation et l\'entretien des étriers de frein incluant joints et pièces d\'usure');
         $manager->persist($part);
 
         $part = new Part();
@@ -167,6 +169,7 @@ class AppFixtures extends Fixture
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
+        $part->setDescription('Ressort hélicoïdal assurant la suspension et le confort de roulement à l\'essieu arrière');
         $manager->persist($part);
 
         $part = new Part();
@@ -178,6 +181,7 @@ class AppFixtures extends Fixture
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catrefroidissement);
+        $part->setDescription('Tuyau flexible transportant le liquide de refroidissement chaud du moteur vers le radiateur');
         $manager->persist($part);
 
         $part = new Part();
@@ -189,6 +193,7 @@ class AppFixtures extends Fixture
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catelectricite);
+        $part->setDescription('Moteur électrique avec réducteur permettant l\'ouverture et la fermeture automatique des vitres latérales');
         $manager->persist($part);
 
         $part = new Part();
@@ -200,6 +205,7 @@ class AppFixtures extends Fixture
         $part->setIsAvailable(true);
         $part->setBrand($brandBosch);
         $part->setCategory($catsuspension);
+        $part->setDescription('Amortisseur hydraulique contrôlant les oscillations de la suspension et assurant la stabilité du véhicule');
         $manager->persist($part);
 
         $part = new Part();
