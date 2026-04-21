@@ -1,57 +1,30 @@
 <?php
+// src/DTO/CreatePartDTO.php
 
 namespace App\DTO;
 
-use App\Entity\Brand;
-use App\Entity\Category;
-use DateTimeImmutable;
 use Symfony\Component\Validator\Constraints as Assert;
 
 class CreatePartDTO
 {
-    #[Assert\NotBlank(message: 'Le nom est obligatoire.')]
+    #[Assert\NotBlank(message: 'Le nom de la pièce est obligatoire.')]
     #[Assert\Length(
         min: 2,
-        max: 100,
+        max: 150,
         minMessage: 'Le nom doit faire au moins {{ limit }} caractères.',
         maxMessage: 'Le nom ne peut pas dépasser {{ limit }} caractères.'
     )]
     public string $name;
 
-    #[Assert\NotBlank(message: 'La référence est obligatoire.')]
-    #[Assert\Length(
-        min: 2,
-        max: 100,
-        minMessage: 'La référence doit faire au moins {{ limit }} caractères.',
-        maxMessage: 'La référence ne peut pas dépasser {{ limit }} caractères.'
-    )]
-    public string $reference;
-
-    #[Assert\Length(
-        max: 500,
-        maxMessage: 'La description ne peut pas dépasser {{ limit }} caractères.'
-    )]
+    #[Assert\Length(max: 500)]
     public ?string $description = null;
 
-    #[Assert\NotBlank(message: 'Le prix est obligatoire.')]
-    #[Assert\Positive(message: 'Le prix doit être un nombre positif.')]
-    public float $price;
-
-    #[Assert\PositiveOrZero(message: 'Le stock doit être un nombre positif ou nul.')]
-    public int $stock;
-
-    #[Assert\NotBlank(message: 'La condition de la pièce est obligatoire.')]
-    public string $part_condition;
-
-    public bool $isAvailable = true;
-
-    public DateTimeImmutable $createdAt;
-
-
-    #[Assert\NotBlank(message: 'La marque est obligatoire.')]
-    public Brand $brand;
 
     #[Assert\NotBlank(message: 'La catégorie est obligatoire.')]
-    public Category $category;
+    #[Assert\Positive(message: "L'identifiant de catégorie est invalide.")]
+    public int $category;
 
+    #[Assert\NotBlank(message: 'La marque est obligatoire.')]
+    #[Assert\Positive(message: "L'identifiant de marque est invalide.")]
+    public int $brand;
 }

@@ -5,6 +5,8 @@ namespace App\Controller;
 
 use App\DTO\CreatePartDTO;
 use App\Entity\Part;
+use App\Repository\BrandRepository;
+use App\Repository\CategoryRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -19,22 +21,25 @@ class PartController extends AbstractController
     public function create(
         #[MapRequestPayload] CreatePartDTO $dto,
         EntityManagerInterface $em,
+        BrandRepository $brandRepository,
+        CategoryRepository $categoryRepository,
     ): JsonResponse {
 
         // À ce stade, $dto est déjà validé.
         // Sinon, on reçoit une 422 en réponse HTTP
+        $brand = $brandRepository->find($dto->brand);
+        $category = $categoryRepository->find($dto->category);
 
         $part = new Part();
         $part->setName($dto->name);
-        $part->setReference($dto->reference);
+        $part->setReference($this->generateReference($dto->name));
         $part->setDescription($dto->description);
-        $part->setPrice($dto->price);
-        $part->setStock($dto->stock);
-        $part->setPartCondition($dto->part_condition);
-        $part->setIsAvailable($dto->isAvailable);
-        $part->setCreatedAt($dto->createdAt);
-        $part->setBrand($dto->brand);
-        $part->setCategory($dto->category);
+        $part->setPrice(0.0);
+        $part->setStock(5);
+        $part->setPartCondition('Neuf');
+        $part->setIsAvailable(true);
+        $part->setBrand($brand);
+        $part->setCategory($category);
 
         // Et on persiste la pièce
         $em->persist($part);
@@ -43,4 +48,15 @@ class PartController extends AbstractController
         // Puis on renvoie l'objet créé en lui passant le groupe de lecture : il saura quelles propriétés donner ! 
         return $this->json($part, 201, [], ['groups' => ['part:read']]);
     }
+
+
+    private function generateReference(string $name): string
+    {
+        $prefix = strtoupper(substr(preg_replace('/[^a-zA-Z]/', '', $name), 0, 3));
+        $prefix = str_pad($prefix, 3, 'X');
+        $unique = strtoupper(substr(uniqid(), -6));
+
+        return sprintf('PART-%s-%s', $prefix, $unique);
+    }
+
 }
